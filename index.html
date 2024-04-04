@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,8 +10,144 @@
   <link rel="stylesheet" href="style.css">
   <title>Portfolio</title>
 </head>
+
 <body>
-  
-  
+  <header class="header">
+    <a href="#" class="logo">Portfolio.</a>
+
+    <nav class="navbar">
+      <a href="#home" class="active">Inicio</a>
+      <a href="#about">Sobre mim</a>
+      <a href="#portfolio">Portfolio</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="home" id="home">
+      <div class="home-content">
+        <h3>Olá, Me chamo</h3>
+        <h1>Fábio Morais</h1>
+        <h3>E sou um <span>desenvolvedor Back-end</span></h3>
+        <p>Sejam bem-vindos. Me chamo Fábio e sou um Desenvolvedor Back-end em transição de carreira.
+          Formação acadêmica em andamento, atualmente estudo Análise e Desenvolvimento de Sistemas na Infnet.</p>
+        <div class="social-media">
+          <a href="https://www.linkedin.com/in/fabioleite-dev/" target="_blank"><i
+              class="fa-brands fa-linkedin"></i></a>
+          <a href="https://github.com/fabiolmorais" target="_blank"><i class="fa-brands fa-github"></i></a>
+        </div>
+
+        <a href="documento/cv.pdf" download class="btn">Baixe meu CV</a>
+      </div>
+
+      <div class="home-img">
+        <img src="imagens/foto-linkedin.jpeg" alt="Minha foto principal">
+      </div>
+    </section>
+  </main>
+
+
+
+  <section class="about" id="about">
+    <div class="about-img">
+      <img src="imagens/foto-linkedin.jpeg" alt="Minha foto">
+    </div>
+
+    <div class="about-content">
+      <h2 class="heading">Sobre <span>mim</span></h2>
+      <h3>Desenvolvedor Back-end</h3>
+      <p>Olá! Sou um Desenvolvedor Back-end em transição de carreira.
+      Formação acadêmica em andamento, atualmente estudo Análise e Desenvolvimento de Sistemas na Infnet.</p>
+
+      <p>Praticamente iniciei no mercado de trabalho como jovem aprendiz e, ao longo do tempo, alcancei cargos hierárquicos
+      maiores. Há - aproximadamente - um ano assumi um cargo de liderança na qual supervisiono e coordeno aproximadamente 30
+      pessoas, neste período aprimorei habilidades como: gestão de equipe e planejamento de tarefas; resoluções de problemas
+      devido a imprevistos; trabalho em equipe incluindo outros setores integrados; capacidade de adaptabilidade com mudanças
+      de departamentos e colaboradores; e comprometimento com as entregas. Totalizando oito anos evoluindo na carreira.</p>
+
+      <p>Desde muito novo, sempre tive uma curiosidade em saber como os jogos e os softwares são criados ou como eles funcionam "por baixo dos panos", então busquei o início dos estudos. E tive enorme afeição com Desenvolvimento de Software na area Back-end com a linguagem Java.
+      Atualemtne estou focado em expandir meus conhecimentos atráves dos cursos técnicos e futura gradução.</p>
+
+      <p>Estou tendo a oportunidade de exercer projetos pessoais utilizando Java e SpringBoot. Consumo de API. Operação em banco
+      de dados não-relacional: MongoDB. Operação em banco de dados relacional: PostgreSQL. Git e GitHub. Dessas tecnologias
+      contribuo em comunidades para dar suporte e aprender com outras pessoas.</p>
+    </div>
+  </section>
+
+  <section class="portfolio" id="portfolio">
+    <h2 class="heading">Últimos <span>Projetos</span></h2>
+
+    <div class="portfolio-container">
+      <div class="portfolio-box">
+        <img src="imagens/java.png" alt="Imagem da linguagem Java">
+        <div class="portfolio-layer">
+          <h4>Workshop SpringBoot - JPA</h4>
+          <p>Workshop feito pelo o curso de java do Nelio Alves</p>
+          <a href="https://github.com/fabiolmorais/workshop-springboot3-jpa" target="_blank"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="imagens/java.png" alt="Imagem da linguagem Java">
+        <div class="portfolio-layer">
+          <h4>Projeto DS Commerce</h4>
+          <p>Projeto DSCommerce do curso Java Spring Professional da DevSuperior</p>
+          <a href="https://github.com/fabiolmorais/projeto-dscommerce" target="_blank"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="imagens/java.png" alt="Imagem da linguagem Java">
+        <div class="portfolio-layer">
+          <h4>Componentes e Injeção de Dep.</h4>
+          <p>Sistema em Java com Spring Boot para calcular o valor total de um pedido, considerando uma porcentagem de desconto e o frete.</p>
+          <a href="https://github.com/fabiolmorais/componentes-injecao-dependencia" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+      <div class="portfolio-box">
+        <img src="imagens/java.png" alt="Imagem da linguagem Java">
+        <div class="portfolio-layer">
+          <h4>Modelo e Dominio ORM</h4>
+          <p>projeto desenvolvido em Java utilizando Spring Boot e o banco de dados H2.</p>
+          <a href="https://github.com/fabiolmorais/modelo-dominio-orm" target="_blank"><i
+              class="fa-solid fa-arrow-up-right-from-square"></i></a>
+        </div>
+      </div>
+
+        <div class="portfolio-box">
+          <img src="imagens/todolist.png" alt="Projeto todolist">
+          <div class="portfolio-layer">
+            <h4>Todolist - React</h4>
+            <p>Projeto desenvolvido em React para treinar minhas habilidades</p>
+            <a href="https://github.com/fabiolmorais/todolist-react" target="_blank"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+
+        <div class="portfolio-box">
+          <img src="imagens/secret-world.png" alt="Projeto secret-world">
+          <div class="portfolio-layer">
+            <h4>Secret World - React</h4>
+            <p>Projeto feito em React com finalidade de criar um mini game onde o usuário tenta acertar a palavra de acordo com a dica.</p>
+            <a href="https://github.com/fabiolmorais/secret-world" target="_blank"><i
+                class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-text">
+      <p>Desenvolvido por Fábio L. Morais</p>
+    </div>
+
+    <div class="footer-iconTop">
+      <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+    </div>
+  </footer>
+
 </body>
+
 </html>
